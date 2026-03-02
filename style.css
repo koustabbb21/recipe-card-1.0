@@ -131,7 +131,7 @@
     width: 160px;
     background-color: #000000;
     border-radius: 30px;
-    font-weight: 400;
+    font-weight: 600;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,4 +145,107 @@
 #recipe-subtext {
     font-size: 18px;
     font-weight: 600;
+}
+
+.details-container {
+    height: 150px;
+    width: 95%;
+    position: relative;
+    left: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-container-items {
+    background-color: #f5f7f2a3;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+    height: 90%;
+    width: 33%;
+    padding-left: 20px;
+    margin: 5px 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+}
+
+#top-items-of-prep {
+    position: relative;
+    bottom: 10px;
+}
+
+#timer-icon {
+    color: #00ff11;
+    font-size: 28px;
+}
+
+#prep-text {
+    color: #6B7280;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    bottom: 8px;
+}
+
+#bottom-items-of-prep {
+    font-size: 28px;
+    font-weight: 600;
+    position: relative;
+    bottom: 10px;
+    left: 5px;
+}
+
+#top-items-of-cook {
+    position: relative;
+    bottom: 10px;
+}
+
+#alarm-icon {
+    color: #00ff11;
+    font-size: 28px;
+}
+
+#cook-text {
+    color: #6B7280;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    bottom: 8px;
+}
+
+#bottom-items-of-cook {
+    font-size: 28px;
+    font-weight: 600;
+    position: relative;
+    bottom: 10px;
+    left: 5px;
+}
+
+#top-items-of-servings {
+    position: relative;
+    bottom: 10px;
+}
+
+#group-icon {
+    color: #00ff11;
+    font-size: 28px;
+}
+
+#servings-text {
+    color: #6B7280;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    bottom: 8px;
+}
+
+#bottom-items-of-servings {
+    font-size: 28px;
+    font-weight: 600;
+    position: relative;
+    bottom: 10px;
+    left: 5px;
 }

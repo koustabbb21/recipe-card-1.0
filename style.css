@@ -260,7 +260,7 @@
 }
 
 #ingredients-container {
-    height: 800px;
+    height: 600px;
     width: 40%;
     position: relative;
     top: 10px;
@@ -289,7 +289,7 @@
 }
 
 #instructions-container {
-    height: 700px;
+    height: 600px;
     width: 50%;
     position: relative;
     top: 10px;
@@ -365,4 +365,47 @@
     margin: 5px 0px 15px 0px;
     font-size: 18px;
     font-weight: 400;
+}
+
+.bottom-container {
+    background-color: #F3F4F6;
+    height: 65px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#exclamation-icon {
+    color: #00ff11;
+}
+
+#exclamation-text {
+    color: #6B7280;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    bottom: 7px;
+}
+
+#right-side-of-bottom-container {
+    background-color: #00ff11;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 15px;
+}
+
+#print-text {
+    font-family: "Inter" ,sans-serif;
+    font-weight: 600;
+    position: relative;
+    left: 5px;
 }

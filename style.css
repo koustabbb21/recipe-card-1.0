@@ -289,7 +289,79 @@
 }
 
 #instructions-container {
-    background-color: palegoldenrod;
     height: 800px;
-    width: 60%;
+    width: 50%;
+    position: relative;
+    top: 10px;
+}
+
+#menu_book-icon {
+    color: #00ff11;
+    font-size: 30px;
+}
+
+#instructions-text {
+    font-size: 28px;
+    font-weight: 600;
+    position: relative;
+    bottom: 5px;
+    left: 5px;
+}
+
+.bottom-part-of-instructions {
+    height: 800px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.steps-icon {
+    height: 30px;
+    width: 30px;
+    margin: 0px 20px 0px 0px ;
+    border-radius: 50%;
+    color: #00a80b;
+    background-color: rgba(0, 255, 17, 0.25);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+#step1-icon {
+    position: relative;
+    top: 0px;
+}
+
+#step2-icon {
+    position: relative;
+    top: 98px;
+}
+
+#step3-icon {
+    position: relative;
+    top: 195px;
+}
+
+#step4-icon {
+    position: relative;
+    top: 294px;
+}
+
+#step5-icon {
+    position: relative;
+    top: 368px;
+}
+
+.steps-heading {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.steps-subheading {
+    color: #6B7280;
+    margin: 5px 0px 15px 0px;
+    font-size: 18px;
+    font-weight: 400;
 }

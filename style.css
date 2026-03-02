@@ -6,7 +6,7 @@
 }
 
 .background-container {
-    height: 1650px;
+    height: 1550px;
     background-color: #F5F7F2;
     display: flex;
     flex-direction: row;
@@ -289,10 +289,11 @@
 }
 
 #instructions-container {
-    height: 800px;
+    height: 700px;
     width: 50%;
     position: relative;
     top: 10px;
+    left: 30px;
 }
 
 #menu_book-icon {

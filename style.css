@@ -20,6 +20,9 @@
     background-color: #FFFFFF;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .nav-bar {
@@ -98,4 +101,48 @@
 #bookmark-icon {
     color: #374151;
     font-size: 24px;
+}
+
+.image-container {
+    height: 400px;
+    width: 90%;
+    padding: 20px 20px 25px 20px;
+    margin: 20px 20px 20px 35px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background-image: url("/assets/image.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.image-container-items {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    position: relative;
+    left: 20px;
+}
+
+#dinner-classic {
+    height: 30px;
+    width: 160px;
+    background-color: #000000;
+    border-radius: 30px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#recipe-text {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+#recipe-subtext {
+    font-size: 18px;
+    font-weight: 600;
 }

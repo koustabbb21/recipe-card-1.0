@@ -28,18 +28,6 @@ The goal of this project is to practice modern layout techniques and build a str
 
 ---
 
-## 📂 Project Structure
-
-recipe-card/
-│
-├── index.html
-├── style.css
-├── assets/
-│ └── recipe-image.jpg
-└── README.md
-
----
-
 ## 🚀 How to Run the Project
 
 1. Clone the repository:
